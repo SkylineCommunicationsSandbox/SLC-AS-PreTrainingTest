@@ -22,6 +22,7 @@ namespace SLC_AS_PreTrainingTest_1
 		{
 			engine.GenerateInformation("Hello World");
 			var order = OrderFactory.CreateOrder("Order 1");
+			order.Dispatch("Jan Staelens");
 		}
 	}
 }
