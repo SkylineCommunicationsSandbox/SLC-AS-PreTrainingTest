@@ -20,9 +20,7 @@ namespace SLC_AS_PreTrainingTest_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			engine.GenerateInformation("Hello World");
-			var order = OrderFactory.CreateOrder("Order 1");
-			order.Dispatch("Jan Staelens");
+			engine.GenerateInformation("Hello World 123");
 		}
 	}
 }
